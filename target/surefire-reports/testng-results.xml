@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-11T16:31:00 IST" name="All Test Suite" finished-at="2020-02-11T16:31:07 IST" duration-ms="7278">
+    <groups>
+    </groups>
+    <test started-at="2020-02-11T16:31:00 IST" name="/Users/skalaskar/Desktop/Sandeep/RestAutomationFramework" finished-at="2020-02-11T16:31:07 IST" duration-ms="7278">
+      <class name="testCases.TC_002_Post_New_Emp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_002_Post_New_Emp@5bda8e08]" started-at="2020-02-11T16:31:03 IST" name="setUp" finished-at="2020-02-11T16:31:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="post_emp()[pri:0, instance:testCases.TC_002_Post_New_Emp@5bda8e08]" started-at="2020-02-11T16:31:03 IST" name="post_emp" finished-at="2020-02-11T16:31:06 IST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_emp -->
+        <test-method signature="checkResponseBody()[pri:0, instance:testCases.TC_002_Post_New_Emp@5bda8e08]" started-at="2020-02-11T16:31:06 IST" name="checkResponseBody" finished-at="2020-02-11T16:31:07 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkStatusCode()[pri:0, instance:testCases.TC_002_Post_New_Emp@5bda8e08]" started-at="2020-02-11T16:31:07 IST" name="checkStatusCode" finished-at="2020-02-11T16:31:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Post_New_Emp@5bda8e08]" started-at="2020-02-11T16:31:07 IST" name="tearDown" finished-at="2020-02-11T16:31:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Post_New_Emp -->
+      <class name="testCases.TC_001_Get_All_Emp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_001_Get_All_Emp@3eb738bb]" started-at="2020-02-11T16:31:00 IST" name="setUp" finished-at="2020-02-11T16:31:00 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getAllEmps()[pri:0, instance:testCases.TC_001_Get_All_Emp@3eb738bb]" started-at="2020-02-11T16:31:00 IST" name="getAllEmps" finished-at="2020-02-11T16:31:02 IST" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmps -->
+        <test-method signature="check_ResponseBody()[pri:0, instance:testCases.TC_001_Get_All_Emp@3eb738bb]" started-at="2020-02-11T16:31:02 IST" name="check_ResponseBody" finished-at="2020-02-11T16:31:03 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_ResponseBody -->
+        <test-method signature="check_StatusCode()[pri:0, instance:testCases.TC_001_Get_All_Emp@3eb738bb]" started-at="2020-02-11T16:31:03 IST" name="check_StatusCode" finished-at="2020-02-11T16:31:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_StatusCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_Get_All_Emp@3eb738bb]" started-at="2020-02-11T16:31:03 IST" name="tearDown" finished-at="2020-02-11T16:31:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_Get_All_Emp -->
+    </test> <!-- /Users/skalaskar/Desktop/Sandeep/RestAutomationFramework -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

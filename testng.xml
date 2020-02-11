@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <listeners>
+<!--        <listener class-name="utilities.listeners" />-->
+        <listener class-name="utilities.Listen" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/skalaskar/Desktop/Sandeep/RestAutomationFramework">
+        <classes>
+            <class name="testCases.TC_001_Get_All_Emp"/>
+            <class name="testCases.TC_002_Post_New_Emp"/>
+        </classes>
+    </test>
+</suite>
