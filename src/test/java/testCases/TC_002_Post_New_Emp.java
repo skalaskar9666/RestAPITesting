@@ -45,6 +45,14 @@ public class TC_002_Post_New_Emp extends TestBase {
         Assert.assertEquals(response.getStatusCode(), 201);
         logger.info("Status Code is => "+ response.getStatusCode());
     }
+    
+    @Test
+    void checkStatusLine()
+    {
+        logger.info("Checking the Status Line");
+//        Assert.assertEquals(response.getStatusCode(), 201);
+        logger.info("Status Line is => "+ response.getStatusLine());
+    }
     @Test
     void checkResponseBody()
     {
