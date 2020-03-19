@@ -42,7 +42,7 @@ public class TC_002_Post_New_Emp extends TestBase {
     void checkStatusCode()
     {
         logger.info("Checking the Status code");
-        Assert.assertEquals(response.getStatusCode(), 201);
+        Assert.assertEquals(response.getStatusCode(), 200);
         logger.info("Status Code is => "+ response.getStatusCode());
     }
     
